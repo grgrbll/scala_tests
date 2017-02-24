@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> D:\scala\akkaactors\target\scala-2.10\classes
+output dir -> D:\scala\akkaactors\actortest\target\scala-2.10\classes
 compile options:
 0 items
 javac options:
@@ -19,18 +19,20 @@ name hashing:
 1 items
 0 -> true
 products:
-6 items
-D:\scala\akkaactors\src\main\scala\main.scala -> D:\scala\akkaactors\target\scala-2.10\classes\AkkaActors$.class
-D:\scala\akkaactors\src\main\scala\main.scala -> D:\scala\akkaactors\target\scala-2.10\classes\AkkaActors.class
-D:\scala\akkaactors\src\main\scala\main.scala -> D:\scala\akkaactors\target\scala-2.10\classes\Msg$.class
-D:\scala\akkaactors\src\main\scala\main.scala -> D:\scala\akkaactors\target\scala-2.10\classes\Msg.class
-D:\scala\akkaactors\src\main\scala\main.scala -> D:\scala\akkaactors\target\scala-2.10\classes\Printer$$anonfun$receive$1.class
-D:\scala\akkaactors\src\main\scala\main.scala -> D:\scala\akkaactors\target\scala-2.10\classes\Printer.class
+8 items
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\Adder$$anonfun$receive$2.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\Adder.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\AkkaActors$.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\AkkaActors.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\Msg$.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\Msg.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\Printer$$anonfun$receive$1.class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> D:\scala\akkaactors\actortest\target\scala-2.10\classes\Printer.class
 binary dependencies:
 3 items
-D:\scala\akkaactors\src\main\scala\main.scala -> C:\Program Files\Java\jre1.8.0_121\lib\rt.jar
-D:\scala\akkaactors\src\main\scala\main.scala -> C:\Users\grgrbll\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.2-M1.jar
-D:\scala\akkaactors\src\main\scala\main.scala -> C:\Users\grgrbll\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> C:\Program Files\Java\jre1.8.0_121\lib\rt.jar
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> C:\Users\grgrbll\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.2-M1.jar
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> C:\Users\grgrbll\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -48,91 +50,125 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-6 items
-D:\scala\akkaactors\src\main\scala\main.scala -> AkkaActors
-D:\scala\akkaactors\src\main\scala\main.scala -> AkkaActors$
-D:\scala\akkaactors\src\main\scala\main.scala -> Msg
-D:\scala\akkaactors\src\main\scala\main.scala -> Msg$
-D:\scala\akkaactors\src\main\scala\main.scala -> Printer
-D:\scala\akkaactors\src\main\scala\main.scala -> Printer$$anonfun$receive$1
+8 items
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Adder
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Adder$$anonfun$receive$2
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AkkaActors
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AkkaActors$
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Msg
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Msg$
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Printer
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Printer$$anonfun$receive$1
 used names:
-65 items
-D:\scala\akkaactors\src\main\scala\main.scala -> !
-D:\scala\akkaactors\src\main\scala\main.scala -> &&
-D:\scala\akkaactors\src\main\scala\main.scala -> <init>
-D:\scala\akkaactors\src\main\scala\main.scala -> ==
-D:\scala\akkaactors\src\main\scala\main.scala -> A
-D:\scala\akkaactors\src\main\scala\main.scala -> A1
-D:\scala\akkaactors\src\main\scala\main.scala -> AbstractFunction1
-D:\scala\akkaactors\src\main\scala\main.scala -> AbstractPartialFunction
-D:\scala\akkaactors\src\main\scala\main.scala -> Actor
-D:\scala\akkaactors\src\main\scala\main.scala -> ActorRef
-D:\scala\akkaactors\src\main\scala\main.scala -> ActorSystem
-D:\scala\akkaactors\src\main\scala\main.scala -> AkkaActors
-D:\scala\akkaactors\src\main\scala\main.scala -> Any
-D:\scala\akkaactors\src\main\scala\main.scala -> AnyRef
-D:\scala\akkaactors\src\main\scala\main.scala -> Array
-D:\scala\akkaactors\src\main\scala\main.scala -> B1
-D:\scala\akkaactors\src\main\scala\main.scala -> Boolean
-D:\scala\akkaactors\src\main\scala\main.scala -> Class
-D:\scala\akkaactors\src\main\scala\main.scala -> ClassTag
-D:\scala\akkaactors\src\main\scala\main.scala -> Function1
-D:\scala\akkaactors\src\main\scala\main.scala -> IndexOutOfBoundsException
-D:\scala\akkaactors\src\main\scala\main.scala -> Int
-D:\scala\akkaactors\src\main\scala\main.scala -> Iterator
-D:\scala\akkaactors\src\main\scala\main.scala -> Msg
-D:\scala\akkaactors\src\main\scala\main.scala -> None
-D:\scala\akkaactors\src\main\scala\main.scala -> Nothing
-D:\scala\akkaactors\src\main\scala\main.scala -> Object
-D:\scala\akkaactors\src\main\scala\main.scala -> Predef
-D:\scala\akkaactors\src\main\scala\main.scala -> Printer
-D:\scala\akkaactors\src\main\scala\main.scala -> Product
-D:\scala\akkaactors\src\main\scala\main.scala -> Props
-D:\scala\akkaactors\src\main\scala\main.scala -> ScalaActorRef
-D:\scala\akkaactors\src\main\scala\main.scala -> ScalaRunTime
-D:\scala\akkaactors\src\main\scala\main.scala -> Serializable
-D:\scala\akkaactors\src\main\scala\main.scala -> Some
-D:\scala\akkaactors\src\main\scala\main.scala -> String
-D:\scala\akkaactors\src\main\scala\main.scala -> T
-D:\scala\akkaactors\src\main\scala\main.scala -> T0
-D:\scala\akkaactors\src\main\scala\main.scala -> Unit
-D:\scala\akkaactors\src\main\scala\main.scala -> _$6
-D:\scala\akkaactors\src\main\scala\main.scala -> _hashCode
-D:\scala\akkaactors\src\main\scala\main.scala -> _toString
-D:\scala\akkaactors\src\main\scala\main.scala -> actor
-D:\scala\akkaactors\src\main\scala\main.scala -> actorOf
-D:\scala\akkaactors\src\main\scala\main.scala -> actorRef2Scala
-D:\scala\akkaactors\src\main\scala\main.scala -> akka
-D:\scala\akkaactors\src\main\scala\main.scala -> apply
-D:\scala\akkaactors\src\main\scala\main.scala -> asInstanceOf
-D:\scala\akkaactors\src\main\scala\main.scala -> eq
-D:\scala\akkaactors\src\main\scala\main.scala -> isInstanceOf
-D:\scala\akkaactors\src\main\scala\main.scala -> materializeClassTag
-D:\scala\akkaactors\src\main\scala\main.scala -> package
-D:\scala\akkaactors\src\main\scala\main.scala -> printer
-D:\scala\akkaactors\src\main\scala\main.scala -> println
-D:\scala\akkaactors\src\main\scala\main.scala -> qual$1
-D:\scala\akkaactors\src\main\scala\main.scala -> runtime
-D:\scala\akkaactors\src\main\scala\main.scala -> scala
-D:\scala\akkaactors\src\main\scala\main.scala -> str
-D:\scala\akkaactors\src\main\scala\main.scala -> system
-D:\scala\akkaactors\src\main\scala\main.scala -> toString
-D:\scala\akkaactors\src\main\scala\main.scala -> typedProductIterator
-D:\scala\akkaactors\src\main\scala\main.scala -> unchecked
-D:\scala\akkaactors\src\main\scala\main.scala -> x$1
-D:\scala\akkaactors\src\main\scala\main.scala -> x$2
-D:\scala\akkaactors\src\main\scala\main.scala -> ||
+95 items
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> !
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> &&
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> +
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> <init>
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ==
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ?
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> A
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> A1
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AbstractFunction1
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AbstractPartialFunction
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Actor
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ActorRef
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ActorSystem
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Adder
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AkkaActors
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Any
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AnyRef
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Array
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> AskableActorRef
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Await
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Awaitable
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> B1
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Boolean
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Class
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ClassTag
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Duration
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> DurationInt
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ExecutionContext
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> FiniteDuration
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Function1
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Future
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> IndexOutOfBoundsException
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Int
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Iterator
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Long
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Msg
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> None
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Nothing
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Object
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Predef
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Printer
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Product
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Props
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ScalaActorRef
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ScalaRunTime
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Serializable
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Some
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> String
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> T
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> T0
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Thread
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Timeout
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> Unit
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> _$6
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> _hashCode
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> _toString
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> actor
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> actorOf
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> actorRef2Scala
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> adder
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> akka
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> apply
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> asInstanceOf
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ask
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> concurrent
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> duration
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> eq
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> future
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> isInstanceOf
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> java
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> lang
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> materializeClassTag
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> package
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> pattern
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> printer
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> println
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> qual$1
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> result
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> runtime
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> scala
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> seconds
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> self
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> sender
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> shutdown
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> sleep
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> str
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> system
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> timeout
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> toString
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> typedProductIterator
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> unchecked
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> util
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> x$1
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> x$2
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> ||
 product stamps:
-6 items
-D:\scala\akkaactors\target\scala-2.10\classes\AkkaActors$.class -> lastModified(1487884942669)
-D:\scala\akkaactors\target\scala-2.10\classes\AkkaActors.class -> lastModified(1487884942604)
-D:\scala\akkaactors\target\scala-2.10\classes\Msg$.class -> lastModified(1487884942685)
-D:\scala\akkaactors\target\scala-2.10\classes\Msg.class -> lastModified(1487884942727)
-D:\scala\akkaactors\target\scala-2.10\classes\Printer$$anonfun$receive$1.class -> lastModified(1487884942772)
-D:\scala\akkaactors\target\scala-2.10\classes\Printer.class -> lastModified(1487884942746)
+8 items
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\Adder$$anonfun$receive$2.class -> lastModified(1487892545612)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\Adder.class -> lastModified(1487892545598)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\AkkaActors$.class -> lastModified(1487892545640)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\AkkaActors.class -> lastModified(1487892545621)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\Msg$.class -> lastModified(1487892545647)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\Msg.class -> lastModified(1487892545660)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\Printer$$anonfun$receive$1.class -> lastModified(1487892545675)
+D:\scala\akkaactors\actortest\target\scala-2.10\classes\Printer.class -> lastModified(1487892545667)
 source stamps:
 1 items
-D:\scala\akkaactors\src\main\scala\main.scala -> hash(0372022a0ba28496f4651663d5fb83ff9af4a2cf)
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> hash(1ace6bb0fd193b4304fd2706b72f452c179a2529)
 binary stamps:
 3 items
 C:\Program Files\Java\jre1.8.0_121\lib\rt.jar -> lastModified(1486925152265)
@@ -142,19 +178,24 @@ class names:
 3 items
 C:\Program Files\Java\jre1.8.0_121\lib\rt.jar -> java.lang.Object
 C:\Users\grgrbll\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.2-M1.jar -> akka.actor.Actor
-C:\Users\grgrbll\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar -> scala.runtime.AbstractPartialFunction
+C:\Users\grgrbll\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar -> scala.Serializable
 internal apis:
 1 items
-D:\scala\akkaactors\src\main\scala\main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwdxVqbAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAdDvcmdAAEc2VsZnNxAH4AC+l5yMV0AAdjb250ZXh0dXEAfgAJAAAAKnNxAH4AC+a3cKx0AAZub3RpZnlzcQB+AAuPuu5pdAAHUmVjZWl2ZXNxAH4AC4vQiu90AAR3YWl0c3EAfgALGjchB3QADSRhc0luc3RhbmNlT2ZzcQB+AAvp40+3dAAMcHJvZHVjdEFyaXR5c3EAfgALNpMKXXQABmVxdWFsc3NxAH4AC9VMZKF0AApBa2thQWN0b3Jzc3EAfgALjrHB4HQADGFzSW5zdGFuY2VPZnNxAH4AC5nhQt50AAxzeW5jaHJvbml6ZWRzcQB+AAt5K0ySdAANJGlzSW5zdGFuY2VPZnNxAH4ACzZHBoJ0AAdyZWNlaXZlc3EAfgAL+D1V/HQACnByZVJlc3RhcnRzcQB+AAu8//m/dAAIY2FuRXF1YWxzcQB+AAt3ouwUdAALcG9zdFJlc3RhcnRzcQB+AAv8s/e9dAAEbWFpbnNxAH4AC73edUJ0AAhwb3N0U3RvcHNxAH4AC2NstPZ0AAdQcmludGVyc3EAfgAL49QCB3QADXByb2R1Y3RQcmVmaXhzcQB+AAtdrFyYdAAJbm90aWZ5QWxsc3EAfgALl/u6BXQAA01zZ3NxAH4ACxt5hL50AAxpc0luc3RhbmNlT2ZzcQB+AAuMliSPdAADc3Ryc3EAfgAL6GNdpHQABjxpbml0PnNxAH4ACzBujQx0AAhwcmVTdGFydHNxAH4AC3vops10AAl1bmhhbmRsZWRzcQB+AAvwpwz7dAACPT1zcQB+AAt4BqVLdAAFY2xvbmVzcQB+AAu7cbbldAAGJGluaXQkc3EAfgALdsq2/nQABGNvcHlzcQB+AAt0QQu8dAAGc2VuZGVyc3EAfgALsJvLzHQACHRvU3RyaW5nc3EAfgALn6u+MXQAAiE9c3EAfgALkAzjk3QACGdldENsYXNzc3EAfgALa7GUJ3QADmNvcHkkZGVmYXVsdCQxc3EAfgALq65tBHQAAm5lc3EAfgALeWltZHQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC/BVcjR0AAJlcXNxAH4AC8I8V/t0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAualU8TdAACIyNzcQB+AAtiCXMsdAAIZmluYWxpemVzcQB+AAto/M1zdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAt1ZE8kdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBveHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ADl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AhnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBvTAAJaW5oZXJpdGVkcQB+AG9MAAdwYXJlbnRzcQB+AG94cQB+AItzcQB+AIZ1cQB+AGoAAAAAc3EAfgCGdXEAfgBqAAAAAHNxAH4AhnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AinQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AinNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4ApHNxAH4Al3EAfgCac3EAfgCbc3EAfgCedXEAfgChAAAAA3NxAH4Ao3QABGphdmFzcQB+AKN0AAJpb3EAfgCoc3EAfgCXdAAHUHJvZHVjdHEAfgCdc3EAfgCXdAAGRXF1YWxzcQB+AJ1zcQB+AJd0AAZPYmplY3RzcQB+AJtzcQB+AJ51cQB+AKEAAAADc3EAfgCjcQB+AK5zcQB+AKN0AARsYW5ncQB+AKhzcQB+AJd0AANBbnlxAH4AnXNxAH4AbHEAfgB5dXEAfgB6AAAAAHNxAH4AfABxAH4AM3VxAH4AfgAAAABxAH4AgnVxAH4AhAAAAABzcQB+AIZxAH4AjHNxAH4AhnNxAH4AjnNxAH4AhnVxAH4AagAAAABzcQB+AIZ1cQB+AGoAAAAAc3EAfgCGdXEAfgCVAAAAA3NxAH4Al3QABUFjdG9yc3EAfgCbc3EAfgCedXEAfgChAAAAA3NxAH4Ao3QABGFra2FzcQB+AKN0AAVhY3RvcnEAfgCoc3EAfgCXcQB+ALZzcQB+AJtzcQB+AJ51cQB+AKEAAAADc3EAfgCjcQB+AK5zcQB+AKNxAH4AvHEAfgCoc3EAfgCXcQB+AL5zcQB+AJtzcQB+AJ51cQB+AKEAAAACc3EAfgCjcQB+AKZxAH4AqHNxAH4AbHEAfgB5dXEAfgB6AAAAAHNxAH4AfABxAH4AH3VxAH4AfgAAAAB+cQB+AIB0AAZNb2R1bGV1cQB+AIQAAAAAc3EAfgCGcQB+AIxzcQB+AIZzcQB+AI5zcQB+AIZ1cQB+AGoAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AHBxAH4AeXVxAH4AegAAAABzcQB+AHwAcQB+AC91cQB+AH4AAAAAc3EAfgCXdAAEVW5pdHNxAH4Am3NxAH4AnnVxAH4AoQAAAAJzcQB+AKNxAH4ApnEAfgCodXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AAxMAAN0cGVxAH4A7nhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AgXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AmFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AinNxAH4Al3QABUFycmF5cQB+APZ1cQB+AJUAAAABc3EAfgCXdAAGU3RyaW5nc3EAfgCbc3EAfgCedXEAfgChAAAAA3NxAH4Ao3EAfgCuc3EAfgCjcQB+ALxxAH4AqHNxAH4AhnVxAH4AagAAAABzcQB+AIZ1cQB+AJUAAAACc3EAfgCXcQB+ALZxAH4BEHNxAH4Al3EAfgC+cQB+APZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWmzaaFt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAAtRDpcc2NhbGFcYWtrYWFjdG9yc1x0YXJnZXRcc2NhbGEtMi4xMFxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUA3ICKguihJb0ZRZj1fuD/5r0os8=
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwJKUA2QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB/0Ur9dAAEc2VsZnNxAH4AC2RPZ2t0AAdjb250ZXh0dXEAfgAJAAAAK3NxAH4AC2OJbWt0AAZub3RpZnlzcQB+AAuvw1thdAAHUmVjZWl2ZXNxAH4ACxmNB750AAR3YWl0c3EAfgALgiDVsnQADSRhc0luc3RhbmNlT2ZzcQB+AAvp40+3dAAMcHJvZHVjdEFyaXR5c3EAfgALCtOkuXQABmVxdWFsc3NxAH4AC9VMZKF0AApBa2thQWN0b3Jzc3EAfgALcWQ8c3QADGFzSW5zdGFuY2VPZnNxAH4ACyC0NlR0AAxzeW5jaHJvbml6ZWRzcQB+AAtyUV7ldAANJGlzSW5zdGFuY2VPZnNxAH4AC0kzpCl0AAdyZWNlaXZlc3EAfgALWbCXtnQACnByZVJlc3RhcnRzcQB+AAu8//m/dAAIY2FuRXF1YWxzcQB+AAvcSUV7dAALcG9zdFJlc3RhcnRzcQB+AAv8s/e9dAAEbWFpbnNxAH4ACxMx3gR0AAhwb3N0U3RvcHNxAH4AC2NstPZ0AAdQcmludGVyc3EAfgAL49QCB3QADXByb2R1Y3RQcmVmaXhzcQB+AAsJMiaMdAAJbm90aWZ5QWxsc3EAfgALl/u6BXQAA01zZ3NxAH4AC4HY/+d0AAxpc0luc3RhbmNlT2ZzcQB+AAuMliSPdAADc3Ryc3EAfgALmBYvmnQABjxpbml0PnNxAH4AC1lmvjJ0AAhwcmVTdGFydHNxAH4AC3QkIFR0AAl1bmhhbmRsZWRzcQB+AAui4i4vdAACPT1zcQB+AAsqo0O/dAAFY2xvbmVzcQB+AAtBn8ZYdAAGJGluaXQkc3EAfgALdsq2/nQABGNvcHlzcQB+AAuscWHtdAAGc2VuZGVyc3EAfgALoz7kvnQACHRvU3RyaW5nc3EAfgALqS9zu3QAAiE9c3EAfgALA2MBCHQACGdldENsYXNzc3EAfgALa7GUJ3QADmNvcHkkZGVmYXVsdCQxc3EAfgALmBIxDXQAAm5lc3EAfgAL8Eb5DHQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC+RhWIJ0AAJlcXNxAH4AC8I8V/t0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAtLWho8dAACIyNzcQB+AAtJdOrldAAIZmluYWxpemVzcQB+AAto/M1zdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAtMH7FLdAAIaGFzaENvZGVzcQB+AAuaYE/xdAAFQWRkZXJzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBxeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ADl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AiHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBxTAAJaW5oZXJpdGVkcQB+AHFMAAdwYXJlbnRzcQB+AHF4cQB+AI1zcQB+AIh1cQB+AGwAAAAAc3EAfgCIdXEAfgBsAAAAAHNxAH4AiHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmF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
 external apis:
 0 items
 source infos:
 1 items
-D:\scala\akkaactors\src\main\scala\main.scala -> 
-AAAAAAAAAAA=
+D:\scala\akkaactors\actortest\src\main\scala\main.scala -> 
+AAAAAAAAAAIAAAEAAAAkACsJCWltcGxpY2l0IHZhbCB0aW1lb3V0ID0gVGltZW91dCg1IHNlY29uZHMpAQAAAxkBAAAAIwEAIwkJICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAQA3RDpcc2NhbGFcYWtrYWFjdG9yc1xhY3RvcnRlc3Rcc3JjXG1haW5cc2NhbGFcbWFpbi5zY2FsYQEAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHNyY1xtYWluXHNjYWxhXG1haW4uc2NhbGEBbHBvc3RmaXggb3BlcmF0b3Igc2Vjb25kcyBzaG91bGQgYmUgZW5hYmxlZApieSBtYWtpbmcgdGhlIGltcGxpY2l0IHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgdmlzaWJsZS4KVGhpcyBjYW4gYmUgYWNoaWV2ZWQgYnkgYWRkaW5nIHRoZSBpbXBvcnQgY2xhdXNlICdpbXBvcnQgc2NhbGEubGFuZ3VhZ2UucG9zdGZpeE9wcycKb3IgYnkgc2V0dGluZyB0aGUgY29tcGlsZXIgb3B0aW9uIC1sYW5ndWFnZTpwb3N0Zml4T3BzLgpTZWUgdGhlIFNjYWxhIGRvY3MgZm9yIHZhbHVlIHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMgZm9yIGEgZGlzY3Vzc2lvbgp3aHkgdGhlIGZlYXR1cmUgc2hvdWxkIGJlIGV4cGxpY2l0bHkgZW5hYmxlZC4BAAABAAAAKAARCQlzeXN0ZW0gc2h1dGRvd24BAAADkAEAAAAJAQAJCQkgICAgICAgAQA3RDpcc2NhbGFcYWtrYWFjdG9yc1xhY3RvcnRlc3Rcc3JjXG1haW5cc2NhbGFcbWFpbi5zY2FsYQEAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHNyY1xtYWluXHNjYWxhXG1haW4uc2NhbGEAa3Bvc3RmaXggb3BlcmF0b3Igc2h1dGRvd24gc2hvdWxkIGJlIGVuYWJsZWQKYnkgbWFraW5nIHRoZSBpbXBsaWNpdCB2YWx1ZSBzY2FsYS5sYW5ndWFnZS5wb3N0Zml4T3BzIHZpc2libGUuAQ==
 compilations:
-3 items
+8 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWmxYYbR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALUQ6XHNjYWxhXGFra2FhY3RvcnNcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWmxqSzB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALUQ6XHNjYWxhXGFra2FhY3RvcnNcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=
 2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWmzaaFt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALUQ6XHNjYWxhXGFra2FhY3RvcnNcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWmzoNPt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWm0/USh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWm1Ejhx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWm1GJrl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWm1ObpJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0Q6XHNjYWxhXGFra2FhY3RvcnNcYWN0b3J0ZXN0XHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv

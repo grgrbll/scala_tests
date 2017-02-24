@@ -1,7 +1,7 @@
 [0m[[0minfo[0m] [0mRunning AkkaActors [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
-[0m[[0mdebug[0m] [0m	D:\scala\akkaactors\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	D:\scala\akkaactors\actortest\target\scala-2.10\classes[0m
 [0m[[0mdebug[0m] [0m	C:\Users\grgrbll\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar[0m
 [0m[[0mdebug[0m] [0m	C:\Users\grgrbll\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.3-1100-jdbc4.jar[0m
 [0m[[0mdebug[0m] [0m	C:\Users\grgrbll\.ivy2\cache\com.typesafe.slick\slick_2.10\bundles\slick_2.10-2.1.0.jar[0m
@@ -11,4 +11,10 @@
 [0m[[0mdebug[0m] [0m	C:\Users\grgrbll\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.2-M1.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread SimpleSystem-scheduler-1 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread SimpleSystem-scheduler-1 exited.[0m
 [0m[[0mdebug[0m] [0mWaiting for thread SimpleSystem-akka.actor.default-dispatcher-2 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread SimpleSystem-akka.actor.default-dispatcher-2 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
